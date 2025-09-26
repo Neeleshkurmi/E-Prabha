@@ -5,6 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base : "/E-Prabha",
+  plugins: [react()],
   server: {
     host: "::",
     port: 8080,
