@@ -23,7 +23,7 @@ const Verify = () => {
         confidence: Math.floor(Math.random() * 30) + 70,
         certificate: {
           id: "CERT-2024-001234",
-          name: "John Smith",
+          name: "Ram Tyagi",
           course: "Master of Computer Science",
           institution: "University of Technology",
           issueDate: "June 15, 2024",
