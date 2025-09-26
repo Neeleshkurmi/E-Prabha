@@ -32,7 +32,7 @@ const Verify = () => {
         verification: {
           blockchainHash: "0x1234567890abcdef1234567890abcdef12345678",
           timestamp: new Date().toLocaleString(),
-          verifiedBy: "CertVerify System",
+          verifiedBy: "E-PRABHA",
         },
         warnings: Math.random() > 0.7 ? ["Minor formatting inconsistency detected"] : undefined,
       };
