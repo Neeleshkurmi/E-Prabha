@@ -17,13 +17,15 @@ const app = express();
 app.use(express.json());
 
 // Routes
-app.use("/api/auth", authRoutes);
+app.use("/api/auth", authRoutes); // test done
 app.use("/api/student", studentRoutes);
 app.use("/api/certificates", certificateRoutes);
 app.use("/api/ocr", ocrRoutes);
 app.use("/api/detect", forgeryRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api", verifyRoutes);
+
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
